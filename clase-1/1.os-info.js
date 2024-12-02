@@ -1,0 +1,12 @@
+const os = require('node:os')
+
+console.log('Info about the current OS:')
+console.log('--------------------------------')
+console.log('Name system',os.platform())
+console.log('Version system',os.version())
+console.log('Architecture system',os.arch())
+console.log('CPUs',os.cpus())
+console.log('Free memory',os.freemem() / 1024 / 1024)
+console.log('Total memory',os.totalmem() / 1024 / 1024)
+console.log('Home directory',os.homedir())
+console.log('Time system',os.uptime() / 60 / 60)
