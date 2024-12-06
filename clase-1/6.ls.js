@@ -1,10 +1,10 @@
-const fs = require('node:fs');
+const fs = require('node:fs')
 
 fs.readdir('./', (err, files) => {
-    if (err) {
-        console.error(err);
-        return;
-    }
+  if (err) {
+    console.error(err)
+    return
+  }
 
-    console.log(files);
-});
+  console.log(files)
+})
