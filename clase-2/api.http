@@ -1,0 +1,13 @@
+### Get stastics pokemon charmander
+GET http://localhost:3000/pokemon/charmander
+
+### Create a new pokemon
+
+POST http://localhost:3000/pokemon
+Content-Type: application/json
+
+{
+    "name": "pikachu",
+    "type": "electric",
+    "moves": ["thunderbolt", "quick attack"]
+}
